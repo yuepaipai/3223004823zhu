@@ -3,7 +3,9 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)![License](https://img.shields.io/badge/License-MIT-green)
 
 一个基于语义相似度的中文论文查重系统，采用TF-IDF向量化和余弦相似度算法，支持同义词替换和停用词过滤。
-
+## 使用
+Way1：  在cmd输入： python main.py "论文地址" "抄袭版论文地址" "查看查重率TXT文档"
+Way2:   把原版论文和抄袭版论文分别复制粘贴在“origin.txt”和“origin_add.txt”
 ## 功能特性
 
 - ✅ **多级文本预处理**：字符清洗 + Jieba精确分词 + 同义词替换 + 停用词过滤
